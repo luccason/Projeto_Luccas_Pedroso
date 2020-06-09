@@ -15,10 +15,17 @@ class D {
             echo 'Método MD2 Teste <br/>';
     }
   }
+	function MD3()
+    {
+        if (isset($this)) {
+            echo 'Método MD3 <br/>';
+    }
+  }
 }
 
 //Teste de impressão
 $d = new D);
 $d->MD1();
 $d->MD2();
+$d->MD3();
 ?>
