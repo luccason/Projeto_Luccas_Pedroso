@@ -15,7 +15,8 @@ class B {
             echo 'Método MB2 <br/>';
     }
   }
-  
+}
+
 //Teste de impressão
 $b = new B();
 $b->MB1();

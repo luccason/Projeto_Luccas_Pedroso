@@ -15,5 +15,10 @@ class A {
             echo 'Método MA2 <br/>';
     }
   }
-  
+}
+
+//Teste de impressão
+$a = new A();
+$a->MA1();
+$a->MA2();
 ?>
