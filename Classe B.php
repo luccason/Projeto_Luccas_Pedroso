@@ -15,10 +15,17 @@ class B {
             echo 'Método MB2 <br/>';
     }
   }
+	function MB3()
+    {
+        if (isset($this)) {
+            echo 'Método MB3 <br/>';
+    }
+  }
 }
 
 //Teste de impressão
 $b = new B();
 $b->MB1();
 $b->MB2();
+$b->MB3();
 ?>
