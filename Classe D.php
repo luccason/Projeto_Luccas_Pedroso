@@ -15,6 +15,12 @@ class D {
             echo 'Método MD2 Teste <br/>';
     }
   }
+	function MD4()
+    {
+        if (isset($this)) {
+            echo 'Método MD4 <br/>';
+    }
+  }
 }
 
 //Teste de impressão
